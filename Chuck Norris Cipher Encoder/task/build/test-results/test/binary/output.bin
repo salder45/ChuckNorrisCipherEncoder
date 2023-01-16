@@ -1,0 +1,20 @@
+[1;31m
+Start test 1[0m
+Input string:
+> greetings!
+[1;31m
+Start test 2[0m
+Input string:
+> hello world!
+[1;31m
+Start test 3[0m
+Input string:
+>   
+[1;31m
+Start test 4[0m
+Input string:
+> h e l l o   w o r l d !
+[1;31m
+Start test 5[0m
+Input string:
+> 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChuckNorrisTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-16T04:20:43" hostname="leviatan" time="0.055">
+  <properties/>
+  <testcase name="start" classname="ChuckNorrisTest" time="0.055"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Input string:
+> greetings!
+?[1;31m
+Start test 2?[0m
+Input string:
+> hello world!
+?[1;31m
+Start test 3?[0m
+Input string:
+>   
+?[1;31m
+Start test 4?[0m
+Input string:
+> h e l l o   w o r l d !
+?[1;31m
+Start test 5?[0m
+Input string:
+> 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

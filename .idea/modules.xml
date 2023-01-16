@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chuck_Norris_Cipher_Encoder.iml" filepath="$PROJECT_DIR$/.idea/modules/Chuck_Norris_Cipher_Encoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chuck Norris Cipher Encoder/task/Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Chuck Norris Cipher Encoder/task/Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chuck Norris Cipher Encoder/task/Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Chuck Norris Cipher Encoder/task/Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chuck Norris Cipher Encoder/task/Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Chuck Norris Cipher Encoder/task/Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Chuck_Norris_Cipher_Encoder.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Chuck_Norris_Cipher_Encoder.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Chuck_Norris_Cipher_Encoder.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Chuck_Norris_Cipher_Encoder.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Chuck_Norris_Cipher_Encoder.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Chuck_Norris_Cipher_Encoder.util.test.iml" />
+    </modules>
+  </component>
+</project>

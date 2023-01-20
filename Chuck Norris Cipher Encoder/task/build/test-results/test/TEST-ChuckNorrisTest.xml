@@ -1,27 +1,595 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ChuckNorrisTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-16T04:20:43" hostname="leviatan" time="0.055">
+<testsuite name="ChuckNorrisTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-19T05:18:59" hostname="leviatan" time="0.233">
   <properties/>
-  <testcase name="start" classname="ChuckNorrisTest" time="0.055"/>
+  <testcase name="start" classname="ChuckNorrisTest" time="0.233"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Input string:
-> greetings!
+>  
+The result:
+00 0 0 0 00 00000
 ?[1;31m
 Start test 2?[0m
 Input string:
-> hello world!
+> !
+The result:
+00 0 0 0 00 0000 0 0
 ?[1;31m
 Start test 3?[0m
 Input string:
->   
+> "
+The result:
+00 0 0 0 00 000 0 0 00 0
 ?[1;31m
 Start test 4?[0m
 Input string:
-> h e l l o   w o r l d !
+> #
+The result:
+00 0 0 0 00 000 0 00
 ?[1;31m
 Start test 5?[0m
 Input string:
-> 
+> $
+The result:
+00 0 0 0 00 00 0 0 00 00
+?[1;31m
+Start test 6?[0m
+Input string:
+> %
+The result:
+00 0 0 0 00 00 0 0 00 0 0 0
+?[1;31m
+Start test 7?[0m
+Input string:
+> &
+The result:
+00 0 0 0 00 00 0 00 00 0
+?[1;31m
+Start test 8?[0m
+Input string:
+> '
+The result:
+00 0 0 0 00 00 0 000
+?[1;31m
+Start test 9?[0m
+Input string:
+> (
+The result:
+00 0 0 0 00 0 0 0 00 000
+?[1;31m
+Start test 10?[0m
+Input string:
+> )
+The result:
+00 0 0 0 00 0 0 0 00 00 0 0
+?[1;31m
+Start test 11?[0m
+Input string:
+> *
+The result:
+00 0 0 0 00 0 0 0 00 0 0 0 00 0
+?[1;31m
+Start test 12?[0m
+Input string:
+> +
+The result:
+00 0 0 0 00 0 0 0 00 0 0 00
+?[1;31m
+Start test 13?[0m
+Input string:
+> ,
+The result:
+00 0 0 0 00 0 0 00 00 00
+?[1;31m
+Start test 14?[0m
+Input string:
+> -
+The result:
+00 0 0 0 00 0 0 00 00 0 0 0
+?[1;31m
+Start test 15?[0m
+Input string:
+> .
+The result:
+00 0 0 0 00 0 0 000 00 0
+?[1;31m
+Start test 16?[0m
+Input string:
+> /
+The result:
+00 0 0 0 00 0 0 0000
+?[1;31m
+Start test 17?[0m
+Input string:
+> 0
+The result:
+00 0 0 00 00 0000
+?[1;31m
+Start test 18?[0m
+Input string:
+> 1
+The result:
+00 0 0 00 00 000 0 0
+?[1;31m
+Start test 19?[0m
+Input string:
+> 2
+The result:
+00 0 0 00 00 00 0 0 00 0
+?[1;31m
+Start test 20?[0m
+Input string:
+> 3
+The result:
+00 0 0 00 00 00 0 00
+?[1;31m
+Start test 21?[0m
+Input string:
+> 4
+The result:
+00 0 0 00 00 0 0 0 00 00
+?[1;31m
+Start test 22?[0m
+Input string:
+> 5
+The result:
+00 0 0 00 00 0 0 0 00 0 0 0
+?[1;31m
+Start test 23?[0m
+Input string:
+> 6
+The result:
+00 0 0 00 00 0 0 00 00 0
+?[1;31m
+Start test 24?[0m
+Input string:
+> 7
+The result:
+00 0 0 00 00 0 0 000
+?[1;31m
+Start test 25?[0m
+Input string:
+> 8
+The result:
+00 0 0 000 00 000
+?[1;31m
+Start test 26?[0m
+Input string:
+> 9
+The result:
+00 0 0 000 00 00 0 0
+?[1;31m
+Start test 27?[0m
+Input string:
+> :
+The result:
+00 0 0 000 00 0 0 0 00 0
+?[1;31m
+Start test 28?[0m
+Input string:
+> ;
+The result:
+00 0 0 000 00 0 0 00
+?[1;31m
+Start test 29?[0m
+Input string:
+> <
+The result:
+00 0 0 0000 00 00
+?[1;31m
+Start test 30?[0m
+Input string:
+> =
+The result:
+00 0 0 0000 00 0 0 0
+?[1;31m
+Start test 31?[0m
+Input string:
+> >
+The result:
+00 0 0 00000 00 0
+?[1;31m
+Start test 32?[0m
+Input string:
+> ?
+The result:
+00 0 0 000000
+?[1;31m
+Start test 33?[0m
+Input string:
+> @
+The result:
+0 0 00 000000
+?[1;31m
+Start test 34?[0m
+Input string:
+> A
+The result:
+0 0 00 00000 0 0
+?[1;31m
+Start test 35?[0m
+Input string:
+> B
+The result:
+0 0 00 0000 0 0 00 0
+?[1;31m
+Start test 36?[0m
+Input string:
+> C
+The result:
+0 0 00 0000 0 00
+?[1;31m
+Start test 37?[0m
+Input string:
+> D
+The result:
+0 0 00 000 0 0 00 00
+?[1;31m
+Start test 38?[0m
+Input string:
+> E
+The result:
+0 0 00 000 0 0 00 0 0 0
+?[1;31m
+Start test 39?[0m
+Input string:
+> F
+The result:
+0 0 00 000 0 00 00 0
+?[1;31m
+Start test 40?[0m
+Input string:
+> G
+The result:
+0 0 00 000 0 000
+?[1;31m
+Start test 41?[0m
+Input string:
+> H
+The result:
+0 0 00 00 0 0 00 000
+?[1;31m
+Start test 42?[0m
+Input string:
+> I
+The result:
+0 0 00 00 0 0 00 00 0 0
+?[1;31m
+Start test 43?[0m
+Input string:
+> J
+The result:
+0 0 00 00 0 0 00 0 0 0 00 0
+?[1;31m
+Start test 44?[0m
+Input string:
+> K
+The result:
+0 0 00 00 0 0 00 0 0 00
+?[1;31m
+Start test 45?[0m
+Input string:
+> L
+The result:
+0 0 00 00 0 00 00 00
+?[1;31m
+Start test 46?[0m
+Input string:
+> M
+The result:
+0 0 00 00 0 00 00 0 0 0
+?[1;31m
+Start test 47?[0m
+Input string:
+> N
+The result:
+0 0 00 00 0 000 00 0
+?[1;31m
+Start test 48?[0m
+Input string:
+> O
+The result:
+0 0 00 00 0 0000
+?[1;31m
+Start test 49?[0m
+Input string:
+> P
+The result:
+0 0 00 0 0 0 00 0000
+?[1;31m
+Start test 50?[0m
+Input string:
+> Q
+The result:
+0 0 00 0 0 0 00 000 0 0
+?[1;31m
+Start test 51?[0m
+Input string:
+> R
+The result:
+0 0 00 0 0 0 00 00 0 0 00 0
+?[1;31m
+Start test 52?[0m
+Input string:
+> S
+The result:
+0 0 00 0 0 0 00 00 0 00
+?[1;31m
+Start test 53?[0m
+Input string:
+> T
+The result:
+0 0 00 0 0 0 00 0 0 0 00 00
+?[1;31m
+Start test 54?[0m
+Input string:
+> U
+The result:
+0 0 00 0 0 0 00 0 0 0 00 0 0 0
+?[1;31m
+Start test 55?[0m
+Input string:
+> V
+The result:
+0 0 00 0 0 0 00 0 0 00 00 0
+?[1;31m
+Start test 56?[0m
+Input string:
+> W
+The result:
+0 0 00 0 0 0 00 0 0 000
+?[1;31m
+Start test 57?[0m
+Input string:
+> X
+The result:
+0 0 00 0 0 00 00 000
+?[1;31m
+Start test 58?[0m
+Input string:
+> Y
+The result:
+0 0 00 0 0 00 00 00 0 0
+?[1;31m
+Start test 59?[0m
+Input string:
+> Z
+The result:
+0 0 00 0 0 00 00 0 0 0 00 0
+?[1;31m
+Start test 60?[0m
+Input string:
+> [
+The result:
+0 0 00 0 0 00 00 0 0 00
+?[1;31m
+Start test 61?[0m
+Input string:
+> \
+The result:
+0 0 00 0 0 000 00 00
+?[1;31m
+Start test 62?[0m
+Input string:
+> ]
+The result:
+0 0 00 0 0 000 00 0 0 0
+?[1;31m
+Start test 63?[0m
+Input string:
+> ^
+The result:
+0 0 00 0 0 0000 00 0
+?[1;31m
+Start test 64?[0m
+Input string:
+> _
+The result:
+0 0 00 0 0 00000
+?[1;31m
+Start test 65?[0m
+Input string:
+> `
+The result:
+0 00 00 00000
+?[1;31m
+Start test 66?[0m
+Input string:
+> a
+The result:
+0 00 00 0000 0 0
+?[1;31m
+Start test 67?[0m
+Input string:
+> b
+The result:
+0 00 00 000 0 0 00 0
+?[1;31m
+Start test 68?[0m
+Input string:
+> c
+The result:
+0 00 00 000 0 00
+?[1;31m
+Start test 69?[0m
+Input string:
+> d
+The result:
+0 00 00 00 0 0 00 00
+?[1;31m
+Start test 70?[0m
+Input string:
+> e
+The result:
+0 00 00 00 0 0 00 0 0 0
+?[1;31m
+Start test 71?[0m
+Input string:
+> f
+The result:
+0 00 00 00 0 00 00 0
+?[1;31m
+Start test 72?[0m
+Input string:
+> g
+The result:
+0 00 00 00 0 000
+?[1;31m
+Start test 73?[0m
+Input string:
+> h
+The result:
+0 00 00 0 0 0 00 000
+?[1;31m
+Start test 74?[0m
+Input string:
+> i
+The result:
+0 00 00 0 0 0 00 00 0 0
+?[1;31m
+Start test 75?[0m
+Input string:
+> j
+The result:
+0 00 00 0 0 0 00 0 0 0 00 0
+?[1;31m
+Start test 76?[0m
+Input string:
+> k
+The result:
+0 00 00 0 0 0 00 0 0 00
+?[1;31m
+Start test 77?[0m
+Input string:
+> l
+The result:
+0 00 00 0 0 00 00 00
+?[1;31m
+Start test 78?[0m
+Input string:
+> m
+The result:
+0 00 00 0 0 00 00 0 0 0
+?[1;31m
+Start test 79?[0m
+Input string:
+> n
+The result:
+0 00 00 0 0 000 00 0
+?[1;31m
+Start test 80?[0m
+Input string:
+> o
+The result:
+0 00 00 0 0 0000
+?[1;31m
+Start test 81?[0m
+Input string:
+> p
+The result:
+0 000 00 0000
+?[1;31m
+Start test 82?[0m
+Input string:
+> q
+The result:
+0 000 00 000 0 0
+?[1;31m
+Start test 83?[0m
+Input string:
+> r
+The result:
+0 000 00 00 0 0 00 0
+?[1;31m
+Start test 84?[0m
+Input string:
+> s
+The result:
+0 000 00 00 0 00
+?[1;31m
+Start test 85?[0m
+Input string:
+> t
+The result:
+0 000 00 0 0 0 00 00
+?[1;31m
+Start test 86?[0m
+Input string:
+> u
+The result:
+0 000 00 0 0 0 00 0 0 0
+?[1;31m
+Start test 87?[0m
+Input string:
+> v
+The result:
+0 000 00 0 0 00 00 0
+?[1;31m
+Start test 88?[0m
+Input string:
+> w
+The result:
+0 000 00 0 0 000
+?[1;31m
+Start test 89?[0m
+Input string:
+> x
+The result:
+0 0000 00 000
+?[1;31m
+Start test 90?[0m
+Input string:
+> y
+The result:
+0 0000 00 00 0 0
+?[1;31m
+Start test 91?[0m
+Input string:
+> z
+The result:
+0 0000 00 0 0 0 00 0
+?[1;31m
+Start test 92?[0m
+Input string:
+> {
+The result:
+0 0000 00 0 0 00
+?[1;31m
+Start test 93?[0m
+Input string:
+> |
+The result:
+0 00000 00 00
+?[1;31m
+Start test 94?[0m
+Input string:
+> }
+The result:
+0 00000 00 0 0 0
+?[1;31m
+Start test 95?[0m
+Input string:
+> ~
+The result:
+0 000000 00 0
+?[1;31m
+Start test 96?[0m
+Input string:
+> greetings!
+The result:
+0 00 00 00 0 000000 00 00 0 0 00 0 0 00 00 00 0 0 00 0 0 000 00 00 0 0 00 0 0 0000 00 0 0 0 00 00 0 00 00 0 0 0 00 00 0 000 00 0 0 000 00 0 0 00 00 00 0 000000 00 00 0 00 00 0 0 0 00 0000 0 0
+?[1;31m
+Start test 97?[0m
+Input string:
+> hello world!
+The result:
+0 00 00 0 0 0 00 000 0 00 00 00 0 0 00 0 0 000 00 0 0 00 00 00 0 00 00 0 0 00 00 00 0 00 00 0 0 0000 00 0 0 0 00 00000 0 000 00 0 0 00000 00 0 0 0000000 00 00 0 0 00 0 0 00 00 0 0 00 00 00 0 00 00 00 0 0 00 000 0 0 00 0000 0 0
+?[1;31m
+Start test 98?[0m
+Input string:
+>  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+The result:
+00 0 0 0 00 000000 0 0 00 0000 0 0 00 0 0 0 00 000 0 0 00 00 0 0 00 000 0 00 00 0 0 0 00 00 0 0 00 000 0 0 00 00 0 0 00 0 0 0 00 0 0 0 00 00 0 00 00 00 0 0 00 00 0 000 00 0 0 0 00 0 0 0 00 0000 0 0 00 0 0 0 00 00 0 0 00 0 0 0 00 0 0 0 00 0 0 0 00 00 0 0 00 0 0 0 00 0 0 00 00 0 0 0 00 0 0 00 00 000 0 0 00 0 0 00 00 0 0 0 00 0 0 0 00 0 0 000 00 00 0 0 00 0 0 0000 00 0 0 00 00 00000 0 00 00 000 0 0 00 0 0 00 00 00 0 0 00 00 0 00 00 00 0 00 00 0 0 00 00 0 0 0 00 000 0 00 00 0 0 0 00 0 0 0 00 0 0 00 00 0 0 00 00 00 0 00 00 0 0 000 00 0 0 000 00 0000 0 000 00 00 0 0 00 0 0 000 00 0 0 0 00 00 0 000 00 0 0 00 00 0 0 0000 00 000 0 0000 00 0 0 0 00 0 0 00000 00 00 0 0000000 00 000000 0 0 00 00000 0 00 00 0000 0 0 00 0 0 0 00 0000 0 000 00 000 0 0 00 00 0 0 00 000 0 0 00 0 0 00 00 000 0 00 00 0 0 0 00 000 0 0000 00 00 0 0 00 000 0 0 00 00 0 0 00 00 0 00 00 00 0 0 00 0 0 0 00 0 0 0 00 00 0 0 00 0 0 000 00 00 0 00 00 00 0 0 00 00 0 00 00 0 0 00 00 00 0 000 00 0 0 0 00 00 0 00000 00 0 0 0 00 0000 0 0 00 0 0 0 00 000 0 00 00 0 0 0 00 00 0 0 00 0 0 0 00 0 0 0 00 00 0 000 00 0 0 0 00 0 0 0 00 00 0 0 00 0 0 0 00 0 0 0 00 0 0 00 00 0 0 0 00 0 0 00 00 0 0 0 00 0 0 0 00 0 0 0000 00 0 0 00 00 000 0 0 00 0 0 00 00 00 0 00 00 0 0 00 00 0 0 0 00 0 0 0 00 0 0 00 00 0 0 000 00 0 0 000 00 00 0 0 00 0 0 000 00 0 0 00 00 0 0 0000 00 0 0 0 00 0 0 0000000 00 00000 0 00 00 0000 0 000 00 000 0 0 00 0 0 00 00 000 0 0000 00 00 0 0 00 00 0 00 00 00 0 0 00 0 0 000 00 00 0 00 00 0 0 00 00 00 0 00000 00 0 0 0 00 000 0 00 00 0 0 0 00 00 0 000 00 0 0 0 00 0 0 0 00 0 0 00 00 0 0 0 00 0 0 0000 00 0 0 00 00 00 0 00 00 0 0 00 00 0 0 000 00 0 0 000 00 0 0 00 00 0 0 0000000 00 0000 0 000 00 000 0 0000 00 00 0 0 00 0 0 000 00 00 0 00000 00 0 0 0 00 00 0 000 00 0 0 0 00 0 0 0000 00 0 0 00 00 0 0 000 00 0 0 0000000 00 000 0 0000 00 00 0 00000 00 0 0 0 00 0 0 0000 00 0 0 0000000 00 00 0 00000 00 0 0 0000000 00 0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

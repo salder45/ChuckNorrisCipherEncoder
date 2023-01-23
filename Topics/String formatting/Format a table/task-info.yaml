@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun main() {
+        val a = readln().toDouble()
+        val b = readln().toDouble()
+        val c = readln().toDouble()
+        val d = readln().toDouble()
+
+        // Write your code here
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/21447#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 23 Jan 2023 03:28:07 UTC"
+record: -1

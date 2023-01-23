@@ -10,6 +10,11 @@
       <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task-build-test-results.main" target="8" />
       <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task-build-tmp.main" target="8" />
       <module name="Chuck_Norris_Cipher_Encoder.Chuck_Norris_Cipher_Encoder-task.main" target="8" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics-String_formatting-Correct_printout.main" target="8" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics-String_formatting-Format_a_table.main" target="8" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics-String_formatting-Format_Double_with_a_comma_and_2_decimal_digits.main" target="8" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics-String_formatting-Theory.main" target="8" />
+      <module name="Chuck_Norris_Cipher_Encoder.Topics-String_formatting-Valid_format_specifiers.main" target="8" />
       <module name="Chuck_Norris_Cipher_Encoder.util.main" target="8" />
     </bytecodeTargetLevel>
   </component>
